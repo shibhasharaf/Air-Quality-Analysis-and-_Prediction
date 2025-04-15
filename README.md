@@ -27,7 +27,8 @@ Visualization: using hist plot and boxplot
 Feature Engineering: Splitting into year, month, day helps build time-based insights.
 
 
-# Correlation : Identify strong relationships between features
+# Correlation : 
+Identify strong relationships between features
 Outlier Detection :  using boxplot identify so many outliers in the dataset
 Outlier removing : Function to remove outliers using the IQR method 
 Initial Modeling :  using  LinearRegression
