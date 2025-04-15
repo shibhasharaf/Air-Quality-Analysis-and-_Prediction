@@ -3,36 +3,50 @@ Introduction
 Problem: Rising air pollution impacts health and environment.(like due rising air pollution it affects humans birds and environment pollution etc.. can occur)
 Goal: Predict AQI to enable early warnings using ML.(like we can easily inform the factory and the nearby people for example wear oxigen mask,try to avoide unnecessary travel,if anyone struggleing with breathing problem try to keep inhaler)
 Benefits: Informed public, preventive actions.
+
+
 objectives
 Perform EDA to understand pollution patterns.
 • Correlate pollutants with AQI.
 • Predict AQI using regression models.
 • Use Power BI for insightful visualizations.
+
+
 Dataset Overview
 • Source: Kaggle 
 • 29,531 rows × 16 columns.
 • Features: PM2.5, PM10, NOx, CO, Benzene, etc.
 • Target: AQI   (air quality index)
 • Challenges: Many missing values, feature imbalance.
+
+
 Methodology
  Understand the data : import  librariesa, cheking the  null values
 Visualization: using hist plot and boxplot 
  Data Cleaning: Handle missing/null values.
 Feature Engineering: Splitting into year, month, day helps build time-based insights.
+
+
 Correlation : Identify strong relationships between features
 Outlier Detection :  using boxplot identify so many outliers in the dataset
 Outlier removing : Function to remove outliers using the IQR method 
 Initial Modeling :  using  LinearRegression
 Evaluation: RMSE, R² 
+
+
 Model Selection & Implementation
  Models Used: Linear Regression, Decision Tree, Random Forest.
 • Reasons: Simplicity, performance on non-linear data.
 • Evaluation Metrics: RMSE, R² .
 • Tools: Scikit-learn, Pandas.
+
+
 Evaluation & Results
 R² Score: 0.780456820863235 
 Mean Absolute Error (MAE): 0.208786914557602 
 Mean Squared Error (MSE): 0.08007401882030216
+
+
 power bi
 Dashboard Overview
  The KPI cards quickly show the overall AQI status.
