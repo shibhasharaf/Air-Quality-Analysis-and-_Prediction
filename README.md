@@ -1,5 +1,5 @@
 # Air-Quality-Analysis-and-_Prediction
-Introduction
+#Introduction
 Problem: Rising air pollution impacts health and environment.(like due rising air pollution it affects humans birds and environment pollution etc.. can occur)
 Goal: Predict AQI to enable early warnings using ML.(like we can easily inform the factory and the nearby people for example wear oxigen mask,try to avoide unnecessary travel,if anyone struggleing with breathing problem try to keep inhaler)
 Benefits: Informed public, preventive actions.
